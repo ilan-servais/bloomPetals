@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - BloomPetals</title>
+    <style>
+        /* Réutilisation de styles communs */
+/* ... (Copiez les styles communs depuis votre fichier CSS) ... */
+
+/* Styles spécifiques à la page de contact */
+h1 {
+    text-align: center;
+    font-size: 2em;
+    margin: 20px 0;
+}
+
+.contact-form {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form form {
+    text-align: left;
+}
+
+.contact-form label,
+.contact-form textarea,
+.contact-form input[type="email"] {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.contact-form textarea {
+    height: 150px;
+}
+
+.contact-form input[type="submit"] {
+    background-color: #ac2929;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Style de la barre de navigation */
+header {
+    background-color: #333;
+    padding: 10px 0;
+    position: fixed; /* Fixe la barre de navigation en haut de la page */
+    width: 100%; /* La barre de navigation prendra toute la largeur de la page */
+    top: 0; /* La barre sera positionnée tout en haut de la page */
+    z-index: 1000; /* Assure que la barre soit au-dessus des autres éléments */
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Style pour le corps de la page */
+body {
+    margin-top: 60px; /* Assurez-vous que le contenu ne soit pas caché derrière la barre de navigation */
+    font-family: Arial, sans-serif; /* Utilisation d'une police de caractères générique */
+    background-color: #f4f4f4; /* Couleur de fond pour le corps de la page */
+    color: #333; /* Couleur de texte générale */
+    padding-bottom: 50px; /* Ajoute de l'espace en bas de la page */
+}
+
+    </style>
+<body>
+    <!-- En-tête de la page -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="realisations.html">Réalisations</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <input placeholder="Search" class="input" name="text" type="text">
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Titre de la page -->
+    <h1>Contactez-nous</h1>
+
+    <!-- Formulaire de contact -->
+    <section class="contact-form">
+        <form action="submit_form.php" method="post">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="message">Message :</label><br>
+            <textarea id="message" name="message" required></textarea><br>
+
+            <input type="submit" value="Envoyer">
+        </form>
+    </section>
+
+    <!-- Pied de page -->
+    <footer>
+        <p>&copy; 2023 BloomPetals. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
