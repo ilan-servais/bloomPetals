@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Réalisations - BloomPetals</title>
+<style>
+
+  /* Couleur de body */
+  body {
+        width: 100%;
+        height: 100%;
+        background: repeating-linear-gradient(45deg, #92c9b1, #92c9b1 20px, #b3e0d2 20px, #b3e0d2 40px);
+}
+
+/* Style de la barre de navigation */
+    header {
+        background-color: #80b19B;
+        padding: 5px 0;
+        display: center;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+}
+
+/* Centrer le texte Nav barre */
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    width: 100%; /* Utilisez toute la largeur disponible */
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+/* Réinitialisation des marges et des rembourrages */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles spécifiques main texte */
+h1 {
+    text-align: center;
+    font-size: 2em;
+    margin: 20px 0;
+}
+
+  /* Styles texte Description */
+  .team-description-box {
+    background-color: #92c9b1; /* Couleur de fond de la boîte */
+    padding: 10px; /* Espacement intérieur de la boîte */
+    border: 5px solid #b3e0d2; /* Bordure de 5 pixels de couleur #2cac12 */
+    border-radius: 10px; /* Coins arrondis */
+    max-width: 600px; /* Largeur maximale de la boîte */
+    margin: 0 auto 20px; /* Espacement autour de la boîte */
+}
+.team-description-box p {
+    font-family: "Times New Roman", serif; /* Choisissez une police de texte */
+    font-size: 20px; /* Taille de police */
+    line-height: 1.6; /* Espacement entre les lignes */
+    color: #333; /* Couleur du texte */
+}
+
+/* Style pour la mosaïque */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE 10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE 10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Crée deux colonnes égales l'une à côté de l'autre */
+.column {
+  -ms-flex: 50%; /* IE 10 */
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Styliser les boutons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: #80b19b;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.btn:hover {
+  background-color: #f1f1f1;
+}
+
+.btn.active {
+  background-color: #b3e0d2;
+  color: #fff;
+}
+
+/* Style du pied de page */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #80b19b; /* Couleur de fond de la foot barre */
+    color: #fff; /* Couleur du texte */
+    text-align: center;
+    padding: 10px 0;
+}
+
+</style>
+<body>
+    <div class="header">
+    <!-- En-tête de la page -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="entreprise.html">Entreprise</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <input placeholder="Search" class="input" name="text" type="text">
+            </ul>
+        </nav>
+    </div>
+    </header>
+
+    <div class="main-content">
+
+    <!-- Titre de la page -->
+    <h1>Nos Réalisations</h1>
+        <!-- Réalisation -->
+        <div class="team-description-box">
+            <p>Vous pouvez utiliser les boutons ci-dessous pour changer la disposition des réalisations affichées.</p>
+        </div>
+
+    <!-- Mosaïque de réalisations -->
+<!-- Header -->
+<div class="header" id="myHeader">
+    <button class="btn" onclick="one()">Grand</button>
+    <button class="btn active" onclick="two()">Moyen</button>
+    <button class="btn" onclick="four()">Mosaïque</button>
+</div>
+
+<!-- Photo Grid -->
+<div class="row">
+    <div class="column">
+        <img src="https://drive.google.com/uc?id=1gYabhcsfWUa-HYeXQGbTiksrnT2VaCNp" style="width:100%">
+        <img src="https://drive.google.com/uc?id=1kEonA0BB7Jk1fItcnqVcaTVNxz9p_Vwj" style="width:100%">
+        <img src="https://drive.google.com/uc?id=1sarIh3uFC_D6ebkkfqofubpQoV2jeQSx" style="width:100%">
+        <img src="https://drive.google.com/uc?id=1idSJGZcLLp9mHxDTl5KbcxhVe0zj8reX" style="width:100%">
+        <img src="https://drive.google.com/uc?id=16dZiCwxH9Euo0kTKlKc5G2X2wCVCygri" style="width:100%">
+        <img src="https://drive.google.com/uc?id=1GRCoQFcb2cZUVIE6F3l8abv9mxeYsPYm" style="width:100%">
+        <img src="https://drive.google.com/uc?id=1JUpp_wZ6uJtDXkOQxKjlLt8zfwCgR2_A" style="width:100%">
+        <img src="https://drive.google.com/uc?id=1JGCTZimZVmoXpczl9DaCmH0z6MdNytgX" style="width:100%">
+        <img src="https://drive.google.com/uc?id=1I5jfIqpkQM8fnUPJ3sQ09LnmcR8Pwtii" style="width:100%">
+        <img src="https://drive.google.com/uc?id=1A1lH1cR_vNd-a7MxePqR6vtBosqIrUWp" style="width:100%">
+        <img src="https://drive.google.com/uc?id=1E02f7FF8NESnE7GEaG83mOgce7sf5Ane" style="width:100%">
+    </div>
+
+    <div class="column">
+        <img src="https://drive.google.com/uc?id=1sarIh3uFC_D6ebkkfqofubpQoV2jeQSx" style="width:100%">
+        <img src="https://drive.google.com/uc?id=16dZiCwxH9Euo0kTKlKc5G2X2wCVCygri" style="width:100%">
+        <img src="https://drive.google.com/uc?id=1JUpp_wZ6uJtDXkOQxKjlLt8zfwCgR2_A" style="width:100%">
+        <img src="https://drive.google.com/uc?id=1JGCTZimZVmoXpczl9DaCmH0z6MdNytgX" style="width:100%">
+        <img src="https://drive.google.com/uc?id=1I5jfIqpkQM8fnUPJ3sQ09LnmcR8Pwtii" style="width:100%">
+        <img src="https://drive.google.com/uc?id=1A1lH1cR_vNd-a7MxePqR6vtBosqIrUWp" style="width:100%">
+        <img src="https://drive.google.com/uc?id=1E02f7FF8NESnE7GEaG83mOgce7sf5Ane" style="width:100%">
+        <img src="https://drive.google.com/uc?id=1idSJGZcLLp9mHxDTl5KbcxhVe0zj8reX" style="width:100%">
+        <img src="https://drive.google.com/uc?id=1GRCoQFcb2cZUVIE6F3l8abv9mxeYsPYm" style="width:100%">
+        <img src="https://drive.google.com/uc?id=1kEonA0BB7Jk1fItcnqVcaTVNxz9p_Vwj" style="width:100%">
+        <img src="https://drive.google.com/uc?id=1gYabhcsfWUa-HYeXQGbTiksrnT2VaCNp" style="width:100%">
+    </div>
+
+    <div class="column">
+        <img src="https://drive.google.com/uc?id=1JGCTZimZVmoXpczl9DaCmH0z6MdNytgX" style="width:100%">
+        <img src="https://drive.google.com/uc?id=1I5jfIqpkQM8fnUPJ3sQ09LnmcR8Pwtii" style="width:100%">
+        <img src="https://drive.google.com/uc?id=1A1lH1cR_vNd-a7MxePqR6vtBosqIrUWp" style="width:100%">
+        <img src="https://drive.google.com/uc?id=16dZiCwxH9Euo0kTKlKc5G2X2wCVCygri" style="width:100%">
+        <img src="https://drive.google.com/uc?id=1gYabhcsfWUa-HYeXQGbTiksrnT2VaCNp" style="width:100%">
+        <img src="https://drive.google.com/uc?id=1kEonA0BB7Jk1fItcnqVcaTVNxz9p_Vwj" style="width:100%">
+        <img src="https://drive.google.com/uc?id=1sarIh3uFC_D6ebkkfqofubpQoV2jeQSx" style="width:100%">
+        <img src="https://drive.google.com/uc?id=1idSJGZcLLp9mHxDTl5KbcxhVe0zj8reX" style="width:100%">
+        <img src="https://drive.google.com/uc?id=1GRCoQFcb2cZUVIE6F3l8abv9mxeYsPYm" style="width:100%">
+        <img src="https://drive.google.com/uc?id=1JUpp_wZ6uJtDXkOQxKjlLt8zfwCgR2_A" style="width:100%">
+        <img src="https://drive.google.com/uc?id=1E02f7FF8NESnE7GEaG83mOgce7sf5Ane" style="width:100%">
+    </div>
+
+    <div class="column">
+        <img src="https://drive.google.com/uc?id=1GRCoQFcb2cZUVIE6F3l8abv9mxeYsPYm" style="width:100%">
+        <img src="https://drive.google.com/uc?id=1JUpp_wZ6uJtDXkOQxKjlLt8zfwCgR2_A" style="width:100%">
+        <img src="https://drive.google.com/uc?id=1E02f7FF8NESnE7GEaG83mOgce7sf5Ane" style="width:100%">
+        <img src="https://drive.google.com/uc?id=1JGCTZimZVmoXpczl9DaCmH0z6MdNytgX" style="width:100%">
+        <img src="https://drive.google.com/uc?id=1I5jfIqpkQM8fnUPJ3sQ09LnmcR8Pwtii" style="width:100%">
+        <img src="https://drive.google.com/uc?id=1A1lH1cR_vNd-a7MxePqR6vtBosqIrUWp" style="width:100%">
+        <img src="https://drive.google.com/uc?id=1kEonA0BB7Jk1fItcnqVcaTVNxz9p_Vwj" style="width:100%">
+        <img src="https://drive.google.com/uc?id=1sarIh3uFC_D6ebkkfqofubpQoV2jeQSx" style="width:100%">
+        <img src="https://drive.google.com/uc?id=1idSJGZcLLp9mHxDTl5KbcxhVe0zj8reX" style="width:100%">
+        <img src="https://drive.google.com/uc?id=16dZiCwxH9Euo0kTKlKc5G2X2wCVCygri" style="width:100%">
+        <img src="https://drive.google.com/uc?id=1gYabhcsfWUa-HYeXQGbTiksrnT2VaCNp" style="width:100%">
+
+
+    </div>
+</div>
+<script>
+    // Get the elements with class="column"
+    var elements = document.getElementsByClassName("column");
+    
+    // Declare a loop variable
+    var i;
+    
+    // Full-width images
+    function one() {
+        for (i = 0; i < elements.length; i++) {
+        elements[i].style.msFlex = "100%";  // IE10
+        elements[i].style.flex = "100%";
+      }
+    }
+    
+    // Two images side by side
+    function two() {
+      for (i = 0; i < elements.length; i++) {
+        elements[i].style.msFlex = "50%";  // IE10
+        elements[i].style.flex = "50%";
+      }
+    }
+    
+    // Four images side by side
+    function four() {
+      for (i = 0; i < elements.length; i++) {
+        elements[i].style.msFlex = "25%";  // IE10
+        elements[i].style.flex = "25%";
+      }
+    }
+    
+    // Add active class to the current button (highlight it)
+    var header = document.getElementById("myHeader");
+    var btns = header.getElementsByClassName("btn");
+    for (var i = 0; i < btns.length; i++) {
+      btns[i].addEventListener("click", function() {
+        var current = document.getElementsByClassName("active");
+        current[0].className = current[0].className.replace(" active", "");
+        this.className += " active";
+      });
+    }
+    </script>
+    
+    <!-- Pied de page -->
+    <footer>
+        <p>&copy; 2023 BloomPetals. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
